@@ -31,8 +31,6 @@ export const initializeFirebaseApp = (): FirebaseApp =>
 export const app: FirebaseApp = initializeFirebaseApp()
 
 // Firebaseアプリの確認
-console.log('Firebase App initialized:', app)
-console.log('Firebase App name:', app.name)
-console.log('Firebase App options:', app.options)
+
 
 export default app

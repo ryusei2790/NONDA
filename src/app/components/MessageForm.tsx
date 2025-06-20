@@ -14,11 +14,6 @@ interface ResponseData {
 export default function MessageForm() {
 
   // Firebaseアプリの確認
-  useEffect(() => {
-    console.log('Firebase App in component:', app);
-    console.log('Firebase App name:', app.name);
-    console.log('Firebase App options:', app.options);
-  }, []);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
